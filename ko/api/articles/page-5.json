@@ -1,0 +1,100 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 73. CRC-4 계산법",
+            "link": "/2021/07/16/survival-log-73-crc4.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-07-16",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 72. COMP3500 과제1",
+            "link": "/2021/07/13/survival-log-72-comp3500-ass1.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-07-13",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 71. COMP3500 실습2",
+            "link": "/2021/07/09/survival-log-71-comp3500-lab2.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-07-09",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 70. 나는 SW 개발자",
+            "link": "/2021/07/06/survival-log-70-I-am-sw-dev.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-07-06",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 69. 원격 지원",
+            "link": "/2021/07/02/survival-log-69-remote-support.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-07-02",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 68. 새로운 기능을 추가했다",
+            "link": "/2021/06/29/survival-log-68-added-new-feature.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-29",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 67. 빌드를 해보실까",
+            "link": "/2021/06/25/survival-log-67-try-build-but-failed.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-25",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 66. 와타시가 이걸..?",
+            "link": "/2021/06/22/survival-log-66-did-i-do-this.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-22",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 65. 메모리는 많을수록",
+            "link": "/2021/06/18/survival-log-65-memory-exhausted.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-18",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 64. 논문을 보자",
+            "link": "/2021/06/15/survival-log-64-github-paper.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-15",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-6.json",
+    
+    
+    "prev": "/api/articles/page-4.json"
+    
+}
