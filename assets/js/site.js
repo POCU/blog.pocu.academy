@@ -25,9 +25,15 @@
         if (localeOrNull !== null) {
             let locale = localeOrNull;
 
-            window.location.href = `/${locale}`;
+            switch (locale) {
+                case LOCALE_ENGLISH:
+                case LOCALE_KOREAN:
+                    window.location.href = `/${locale}`;
 
-            return;
+                    return;
+                default:
+                    break;
+            }
         }
 
         languageSelect.style.display = "block";
