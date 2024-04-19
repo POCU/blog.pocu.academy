@@ -9,9 +9,9 @@
         let now = new Date();
         let expiryDate = new Date(now.getFullYear() + 1, now.getMonth(), now.getDate());
 
-        const languageSelect = document.getElementById("language-select");
-        const linkEnglish = document.getElementById("link-en");
-        const linkKorean = document.getElementById("link-ko");
+        let languageSelect = document.getElementById("language-select");
+        let linkEnglish = document.getElementById("link-en");
+        let linkKorean = document.getElementById("link-ko");
 
         linkEnglish.addEventListener("click", () => {
             onLanguageLinkClicked(LOCALE_ENGLISH, expiryDate);

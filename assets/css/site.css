@@ -19,12 +19,12 @@
     width: 80px;
 }
 
-.header-text {
-   font-size: 1.7rem; 
+.logo-text {
+    font-size: 1.5rem;
 }
 
-.blog-text {
-    font-size: 1.5rem;
+.header-text {
+   font-size: 1.7rem; 
 }
 
 .language-text {
@@ -40,7 +40,7 @@
         width: 120px;
     }
 
-    .blog-text {
+    .logo-text {
         font-size: 2rem;
     }
 
@@ -54,11 +54,11 @@
 }
 
 @media (min-width: 768px) {
-    .header-text {
-        font-size: 4rem;
-    }
-
     .container {
         max-width: 690px;
+    }
+    
+    .header-text {
+        font-size: 4rem;
     }
 }
