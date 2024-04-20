@@ -4,7 +4,6 @@
 
 .background {
     background: linear-gradient(45deg, #E0E0E0, #E8E8E8 40%, #F0F0F0 59%, #F8F8F8 85%, #FFFFFF);
-    /* background: linear-gradient(45deg, rgba(229,232,234,1) 0%, rgba(9,42,121,0.3635505227481618) 75%, rgba(211,211,211,1) 100%); */
     height: 100%;
     display: none;
 }
@@ -27,12 +26,40 @@
    font-size: 1.7rem; 
 }
 
+.language-card {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(0deg, #DCDCDC, #E8E8E8 40%, #F0F0F0 59%, #F8F8F8 85%, #FFFFFF);
+    border-radius: 35px;
+    box-shadow: 0 0.7rem 1rem rgba(0,0,0,.8);
+    transition: box-shadow ease .5s;
+}
+
+.language-link:hover {
+    text-decoration: none;
+}
+
+    .language-link:hover .language-card {
+        box-shadow: 0 0.7rem 1rem #e24825;
+    }
+
 .language-text {
     font-size: 1.5rem;
 }
 
-.shadow {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+.comic-font {
+    font-family: 'Comic Neue', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 2.2rem;
+    text-shadow: 2px 0px rgb(52, 58, 64), -3px 2px 4px rgba(0, 0, 0, 0.5), 3px -3px 0 rgba(255, 255, 255, 0.9);
+    letter-spacing: 4px;
+}
+
+.korean-comic-font {
+    font-family: 'Yeon Sung', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans CJK KR", arial, 돋움, Dotum, Tahoma, Geneva, sans-serif;
+    letter-spacing: -10px;
+    font-size: 2.2rem;
+    padding-right: 30px;
+    text-shadow: -3px 2px 4px rgba(0, 0, 0, 0.5), 3px -3px 0 rgba(255, 255, 255, 0.9);
 }
 
 @media (min-width: 576px) {
@@ -49,7 +76,22 @@
     }
 
     .language-text {
+        font-size: 1.8rem;
+    }
+
+    .language-card {
+        width: 200px;
+        height: 200px;
         font-size: 3rem;
+        border-radius: 45px;
+    }
+
+    .comic-font {
+        font-size: 4rem;
+    }
+
+    .korean-comic-font {
+        font-size: 4rem;
     }
 }
 
