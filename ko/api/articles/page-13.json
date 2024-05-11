@@ -1,0 +1,105 @@
+{
+    "pages": [
+    
+        {
+            "title": "청강문화산업대학교 게임학과 재학생 인터뷰 2: 전재승님",
+            "link": "/2020/11/05/ck-interview-jaeseung-jeon.html",
+            "excerpt": "POCU 아카데미 수강생 여러분 반갑습니다! 윤아입니다!
+여러분, POCU 아카데미와 청강문화산업대학교가 산학 협력을 맺었다는 사실을 알고 계시죠? 게임 학과 재학생분들을 대상으로 하는 할인 이벤트가 진행 중인데요! 이번에는 그 두 번째 주인공인 재승님을 소개합니다.
+",
+            "date": "2020-11-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "성공 스토리 5: 늦은 시기에 프로그래밍 입문 후 취직까지 성공하신 유영주 님",
+            "link": "/2020/09/23/success-story-of-yoo-young-joo-succeeded-in-finding-a-job.html",
+            "excerpt": "이번 성공 스토리는 늦은 시기에 프로그래밍 입문 후 취직까지 성공하신 유영주 님의 이야기입니다.
+",
+            "date": "2020-09-23",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 06. COMP2200 실습1",
+            "link": "/2020/09/17/survival-log-06-comp2200-lab1.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-09-17",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "정규 학기 가격 정책 변경 안내",
+            "link": "/2020/08/14/new-pricing-policy.html",
+            "excerpt": "안녕하세요, POCU 아카데미 수강생 여러분. 윤아입니다!
+오늘은 2020년 9월 학기를 시작으로 새롭게 적용되는 정규 학기 가격 정책에 대해서 안내해드리고자 합니다.
+",
+            "date": "2020-08-14",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "성공 스토리 4: 정규 학기 수강 후 이직에 성공하신 ratisser 님",
+            "link": "/2020/08/14/success-story-of-ratisser-succeeded-in-changing-job.html",
+            "excerpt": "POCU 아카데미는 탑 프로그래머 양성 교육기관으로 프로그래밍 입문자부터 이미 업계에 계신 분들까지 다양한 분들이 수강하고 계십니다.
+이번 성공 스토리는 이미 업계에 계시지만 POCU 아카데미 정규 학기를 수강하고 나서 성공적으로 이직을 하신 ratisser 님의 이야기를 들어보려고 합니다.
+",
+            "date": "2020-08-14",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "2020년 9월 학기 수강 안내",
+            "link": "/2020/08/11/about-september-2020-term.html",
+            "excerpt": "안녕하세요, POCU 아카데미 대표 강사 김포프입니다. 블로그를 통해서는 오랜만에 인사를 드리게 되었습니다.
+",
+            "date": "2020-08-11",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 05. 수학 과제",
+            "link": "/2020/07/31/survival-log-05-math-assignment.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-07-31",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 04. 법선 벡터",
+            "link": "/2020/06/30/survival-log-04-normal-vector.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-06-30",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "청강문화산업대학교 게임학과 재학생 인터뷰 1: 옵스님",
+            "link": "/2020/06/25/ck-interview-ops-who-wants-to-be-a-game-programmer.html",
+            "excerpt": "POCU 아카데미 수강생 여러분 반갑습니다! 윤아입니다!
+여러분, POCU 아카데미와 청강문화산업대학교가 산학 협력을 맺었다는 사실을 알고 계신가요? 그래서 POCU 아카데미에서는 2019년 9월 학기를 시작으로 게임학과 재학생분들을 대상으로 한 할인 이벤트를 시작했습니다.
+오늘은 게임 개발자를 목표로 열심히 달리고 있는 게임학과 학생분들이 POCU 아카데미 풀코스 수강을 통해 어떤 변화들이 있었는지 여러분들과 같이 공유하려고 합니다. 그럼, 그 첫 번째 이야기를 소개합니다.
+",
+            "date": "2020-06-25",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 03. 이진 탐색",
+            "link": "/2020/06/16/survival-log-03-binary-search-algorithm.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-06-16",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-14.json",
+    
+    
+    "prev": "/api/articles/page-12.json"
+    
+}

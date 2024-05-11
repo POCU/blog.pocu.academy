@@ -1,0 +1,100 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 25. 끝없는 고통",
+            "link": "/2021/01/29/survival-log-25-comp2500-cry.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-29",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 24. 피자를 만들자",
+            "link": "/2021/01/26/survival-log-24-comp2500-lab6.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-26",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 23. 공격자가 스스로를 공격하는 경우를 테스트합니다",
+            "link": "/2021/01/22/survival-log-23-comp2500-lab5.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-22",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 22. 도전정신",
+            "link": "/2021/01/19/survival-log-22-comp2500-lab4.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-19",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 21. 재귀는 어려워",
+            "link": "/2021/01/15/survival-log-21-comp2500-lab3.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-15",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 20. 주인공 얼굴 변천사",
+            "link": "/2021/01/12/survival-log-20-face-log.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-12",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 19. 복소수 계산 실습",
+            "link": "/2021/01/08/survival-log-19-comp2500-lab2.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-08",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 18. 코드 리뷰 2",
+            "link": "/2021/01/05/survival-log-18-comp2500-ass3-code-review.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 17. 공격 우선순위는 어디?",
+            "link": "/2021/01/01/survival-log-17-comp2500-ass3-atan.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-01",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 16. 코드 리뷰",
+            "link": "/2020/12/29/survival-log-16-comp2500-ass2-code-review.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-29",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-11.json",
+    
+    
+    "prev": "/api/articles/page-9.json"
+    
+}

@@ -1,0 +1,106 @@
+{
+    "pages": [
+    
+        {
+            "title": "청강문화산업대학교 게임학과 재학생 인터뷰 5: 가리비 님",
+            "link": "/2021/10/22/ck-interview-garibi-who-wants-to-be-a-graphics-programmer.html",
+            "excerpt": "안녕하세요! POCU 아카데미 수강생 여러분. 윤아입니다!
+이번에도 청강문화산업대학교 게임학과 재학생 인터뷰를 들고 왔습니다. 군 휴학 중 부족한 부분을 채우기 위해 POCU 아카데미를 수강한 가리비 님의 인터뷰입니다.
+청강문화산업대학교 게임학과 재학생을 대상으로 하는 할인 이벤트는 여전히 진행 중이니 많은 관심 바랍니다 ^^
+",
+            "date": "2021-10-22",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "청강문화산업대학교 게임학과 재학생 인터뷰 4: 옵스 님",
+            "link": "/2021/10/05/ck-interview-ops-who-officially-became-a-game-programmer.html",
+            "excerpt": "안녕하세요! POCU 아카데미 수강생 여러분. 윤아입니다!
+지난번 청강문화산업대학교 게임학과 재학생 인터뷰의 옵스 님을 기억하시나요? 옵스 님이 당당한 게임 개발자가 되어 돌아왔습니다!
+청강문화산업대학교 게임학과 재학생을 대상으로 하는 할인 이벤트도 여전히 진행 중이니 많은 관심 바랍니다 ^^
+",
+            "date": "2021-10-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 88. 수학의 힘",
+            "link": "/2021/09/28/survival-log-88-power-of-math.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-09-28",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "성공 스토리 7: POCU 강의를 수강하고 게임 업계로 이직하신 BH 님",
+            "link": "/2021/09/20/success-story-of-BH-moved-to-the-game-industry.html",
+            "excerpt": "POCU 아카데미 수강생 여러분 반갑습니다! 윤아입니다!
+지난주에 이어 오늘도 또 다른 성공 스토리 인터뷰입니다. 비전공자인 데다 남들보다 늦게 출발해 결국 원하는 게임 업계에서 일하게 된 BH 님의 스토리를 만나보시죠.
+",
+            "date": "2021-09-20",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "성공 스토리 6: 보안관제업에서 개발자로 전향에 성공하신 Cheese 님",
+            "link": "/2021/09/13/success-story-of-cheese-who-succeeded-in-becoming-a-developer-from-the-security-control-industry.html",
+            "excerpt": "POCU 아카데미 수강생 여러분 반갑습니다! 윤아입니다!
+오랜만에 기쁜 소식을 나눌 POCU 수강생의 이야기를 들고 왔습니다. 다른 업종에서 개발자로 전향에 성공하신 Cheese님의 인터뷰인데요. 바로 인터뷰 시작하도록 하죠!
+",
+            "date": "2021-09-13",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 87. 노드의 개수는?",
+            "link": "/2021/09/07/survival-log-87-how-many-nodes.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-09-07",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 86. 테슬라 AI",
+            "link": "/2021/09/03/survival-log-86-tesla-ai.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-09-03",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 85. POCU 삼형제",
+            "link": "/2021/08/27/survival-log-85-POCU-three-brothers.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-27",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 84. 남은 건 최적화",
+            "link": "/2021/08/24/survival-log-84-All-that's-left-is-optimization.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-24",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 83. 배움의 기쁨",
+            "link": "/2021/08/20/survival-log-83-joy-of-learning.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-20",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-4.json",
+    
+    
+    "prev": "/api/articles/page-2.json"
+    
+}

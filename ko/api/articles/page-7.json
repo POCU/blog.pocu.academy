@@ -1,0 +1,100 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 53. 주소는 개인정보",
+            "link": "/2021/05/07/survival-log-53-comp3200-address.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-05-07",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 52. POCU 수강 후",
+            "link": "/2021/05/04/survival-log-52-stronger.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-05-04",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 51. 리팩토링(Refactoring)",
+            "link": "/2021/04/30/survival-log-51-refactoring.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-30",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 50. 매직 넘버(Magic Number)",
+            "link": "/2021/04/27/survival-log-50-magic-number.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-27",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 49. IntelliJ는 못말려",
+            "link": "/2021/04/23/survival-log-49-intelliJ.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-23",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 48. 부분점수 주떼여",
+            "link": "/2021/04/20/survival-log-48-partial-score.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-20",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "2021년 5월 학기 수강 안내",
+            "link": "/2021/04/19/about-may-2021-term.html",
+            "excerpt": "안녕하세요, POCU 아카데미 대표 강사 김포프입니다. 올해 들어 처음으로 블로그를 통해 인사드리게 되었습니다.
+",
+            "date": "2021-04-19",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 47. 빌드봇 다크써클",
+            "link": "/2021/04/16/survival-log-47-kill-me-build-bot.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-16",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 46. 유명 웹툰 작가",
+            "link": "/2021/04/13/survival-log-46-famous-fergcd.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-13",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 45. 손발이 오글토글",
+            "link": "/2021/04/09/survival-log-45-cringe.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-04-09",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-8.json",
+    
+    
+    "prev": "/api/articles/page-6.json"
+    
+}
