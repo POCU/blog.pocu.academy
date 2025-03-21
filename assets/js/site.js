@@ -1,7 +1,7 @@
 (function() {
     "use strict";
 
-    const LOCALE_COOKIE_NAME = "POCU.blog.locale";
+    const LOCALE_COOKIE_NAME = "P.site.locale";
     const LOCALE_ENGLISH = "en";
     const LOCALE_KOREAN = "ko";
 
