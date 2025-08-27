@@ -1,0 +1,1 @@
+..\VisualStudioCodeLauncher.bat %cd%
