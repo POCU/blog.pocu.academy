@@ -1,0 +1,102 @@
+{
+    "pages": [
+    
+        {
+            "title": "2020년 1월 학기 수강 안내",
+            "link": "/2019/12/10/about-january-2020-term.html",
+            "excerpt": "POCU 아카데미가 오픈한 지 만 1년을 기념하며 2020년 1월 학기를 공개합니다. 이번 학기에 공개하는 강의는 기존의 4과목입니다. 이는 POCU에서 1차로 제공하려고 하는 코어 교과과정(10년 뒤에도 살아남는 프로그래머라면 반드시 알아야 하는 12개의 과목)의 3분의 1로 결코 적은 양이 아니지만 새로운 과목을 기다려주신 분들도 많다는 사실을 알고 있습니다. 죄송스럽게도 이번 학기에 새로 추가되는 강의는 없습니다. 기존 강의들과 POCU 시스템의 품질향상을 위해서니 너무 노하지 마세요. ㅠ_ㅠ (새로운 강의를 만들지 않는 이유는 다른 블로그 글을 통해 상세히 말씀드리겠습니다)
+",
+            "date": "2019-12-10",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "청강대 게임학과생 대상 99% 할인 이벤트",
+            "link": "/2019/08/24/special-discount-for-ckgame-students.html",
+            "excerpt": "안녕하세요, 오늘도 게임 개발자가 되기 위해 열심히 노력하고 계시는 청강대 게임 학과생 여러분들!
+10년 뒤에도 살아남는 프로그래머 양성을 목표로 하는 POCU 아카데미에서 청강대 게임 학과생들을 위한 특별한 이벤트를 준비했습니다.
+",
+            "date": "2019-08-24",
+            "author": "문서봇"
+        }
+    ,
+        {
+            "title": "2019년 9월 학기 수강 안내",
+            "link": "/2019/08/24/about-september-2019-term.html",
+            "excerpt": "안녕하세요. 10년 뒤에도 잘 나가는 일류 프로그래머를 육성하는 것을 목표로 하는 POCU 아카데미의 대표강사 김포프입니다.
+",
+            "date": "2019-08-24",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "가이드: 맥에서 .gitignore 파일 보이게 하기",
+            "link": "/2019/05/16/how-to-unhide-gitignore-file-on-macos.html",
+            "excerpt": "안녕하세요 수강생 여러분
+",
+            "date": "2019-05-16",
+            "author": "문서봇"
+        }
+    ,
+        {
+            "title": "가이드: C# 프로젝트에서 .CS 파일 생성하기",
+            "link": "/2019/05/07/how-to-make-cs-file-on-csharp-project.html",
+            "excerpt": "안녕하세요. POCU 아카데미 수강생 여러분.
+",
+            "date": "2019-05-07",
+            "author": "문서봇"
+        }
+    ,
+        {
+            "title": "2019년 5월 학기 수강 안내",
+            "link": "/2019/03/27/about-may-2019-term.html",
+            "excerpt": "안녕하세요. POCU 아카데미의 대표강사 김포프입니다.
+",
+            "date": "2019-03-27",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "가이드: 효과적인 온라인 질문법",
+            "link": "/2019/03/15/how-to-ask-questions-effectively.html",
+            "excerpt": "안녕하세요! POCU 아카데미 수강생 여러분. 윤아입니다!
+오늘은 온라인에서 효과적으로 질문하는 방법을 소개하려고 합니다!
+",
+            "date": "2019-03-15",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 아카데미 학생평가 시스템에 대해",
+            "link": "/2019/01/16/about-grading-system.html",
+            "excerpt": "안녕하세요. 오늘은 많은 분들이 궁금해하셨던 POCU 아카데미의 성적 평가 시스템에 대해 알아보겠습니다.
+",
+            "date": "2019-01-16",
+            "author": "문서봇"
+        }
+    ,
+        {
+            "title": "가이드: 질문하기 전에 효율적으로 검색하는 방법",
+            "link": "/2019/01/13/how-to-search-efficiently-before-asking-questions.html",
+            "excerpt": "안녕하세요, POCU 아카데미 수강생 여러분. 윤아입니다!
+",
+            "date": "2019-01-13",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "가이드: 비주얼 스튜디오에 새로운 파일을 추가하는 방법",
+            "link": "/2019/01/07/how-to-add-new-files-in-visual-studio.html",
+            "excerpt": "이 가이드에서는 비주얼 스튜디오에 새로운 파일(.h 파일, .cpp 파일)을 추가하는 방법을 설명합니다.
+",
+            "date": "2019-01-07",
+            "author": "문서봇"
+        }
+    ],
+    
+    "next": "/api/articles/page-18.json",
+    
+    
+    "prev": "/api/articles/page-16.json"
+    
+}

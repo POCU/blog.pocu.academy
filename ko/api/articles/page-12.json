@@ -1,0 +1,106 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 19. 복소수 계산 실습",
+            "link": "/2021/01/08/survival-log-19-comp2500-lab2.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-08",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 18. 코드 리뷰 2",
+            "link": "/2021/01/05/survival-log-18-comp2500-ass3-code-review.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 17. 공격 우선순위는 어디?",
+            "link": "/2021/01/01/survival-log-17-comp2500-ass3-atan.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-01",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 16. 코드 리뷰",
+            "link": "/2020/12/29/survival-log-16-comp2500-ass2-code-review.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-29",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 15. 이번엔 프린트 회사다",
+            "link": "/2020/12/25/survival-log-15-comp2500-ass2-printit.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-25",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "42 SEOUL 교육생 할인 혜택",
+            "link": "/2020/12/25/42seoul-discount.html",
+            "excerpt": "안녕하세요. POCU 아카데미의 대표강사 김포프입니다.
+최근 POCU 아카데미는 42 SEOUL과 '소프트웨어 산업 발전을 위한 업무 협약(MOU)'을 체결하였습니다. 소프트웨어 인재 양성과 개발자 생태계 활성화를 위해 무상으료 교육을 제공하는 42 SEOUL의 취지가 POCU 아카데미와 잘 맞다고 판단하였기 때문입니다.
+업무 협약의 결과로 42 SEOUL 교육생 분들께 특별 할인 혜택을 드릴 수 있게 되어 이렇게 안내 글을 올립니다.
+",
+            "date": "2020-12-25",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "선수과목이란?",
+            "link": "/2020/12/24/prerequisite.html",
+            "excerpt": "안녕하세요, POCU 아카데미 수강생 여러분. 윤아입니다!
+POCU 아카데미의 모든 과목은 선수 과목이 존재합니다. 오늘은 각 과목의 선수과목에 대해 알아보겠습니다.
+",
+            "date": "2020-12-24",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 14. 에잇 퇴사다!",
+            "link": "/2020/12/22/survival-log-14-comp2500-ass1-turnover.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-22",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "부정행위",
+            "link": "/2020/12/20/cheating.html",
+            "excerpt": "안녕하세요, POCU 아카데미 수강생 여러분. 윤아입니다!
+오늘은 부정행위에 대해 알아보겠습니다. 어떤 건 부정행위에 해당하고, 어떤 건 부정행위에 해당하지 않는지 정확히 알아야 좀 더 활발하게 POCU에서 활동할 수 있겠죠? 부정행위인 줄 모르고 행동했다가 제재를 받게 되거나, 반대로 부정행위인 줄 알고 정당한 권리를 행사하지 못하는 일이 발생하면 억울하니까요!
+",
+            "date": "2020-12-20",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "새해 맞이 동영상 강의 세일",
+            "link": "/2020/12/19/new-year-discount.html",
+            "excerpt": "안녕하세요 윤아입니다!
+2주 뒤면 2021년이 되네요. 올해는 유독 시간이 빠른 것 같습니다. (+1살.. ㅠ_ㅠ)
+2021년을 맞아 제가!! 여러분께 새해 선물을 가지고 왔습니다! 바로 티쳐블 동영상 강의 세일!
+",
+            "date": "2020-12-19",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-13.json",
+    
+    
+    "prev": "/api/articles/page-11.json"
+    
+}
