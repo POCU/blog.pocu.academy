@@ -1,0 +1,47 @@
+{
+    "pages": [
+    
+        {
+            "title": "Is Computer Science Education Without Gender Bias Really Possible? My First Conversation With the Founder",
+            "link": "/2025/12/05/sexism-free-cs-education.html",
+            "excerpt": "Hello, this is Yoona.
+Not long after I joined POCU, there was a moment during an all-hands town hall when the founder answered the question, &quot;Why doesn't POCU offer offline classes?&quot; What I heard there for the first time was the idea that gender bias exists severely even inside education, especially in computer science education, and I was genuinely shocked.
+",
+            "date": "Dec 5, 2025",
+            "author": "Yoona"
+        }
+    ,
+        {
+            "title": "Why We Allow Only 30 Minutes for Post‑Grading Result Review",
+            "link": "/2025/10/20/about-exam-review-duration.html",
+            "excerpt": "Hello everyone—this is Yoona.
+We're kicking off a new series that introduces POCU's internal systems. The first topic is something many of you have asked about: the post‑grading result review window (below, simply review window). At POCU, the review window is about 30 minutes. Why? Not for convenience, but because it's an educational design meant to support your long‑term growth and industry readiness.
+",
+            "date": "Oct 20, 2025",
+            "author": "Yoona"
+        }
+    ,
+        {
+            "title": "Success Story 9: Right After Graduation, Straight Into the Hottest Game Studio! Alegruz, Game Engine Programmer at Pearl Abyss",
+            "link": "/2023/02/14/success-story-of-a-fresh-graduate-who-got-a-job-from-pearl-abyss.html",
+            "excerpt": "Hello, POCU Academy students! This is Yoona!
+Today's success story features game engine programmer Alegruz. Our POCU students really don't waste time—graduating from university and immediately smashing job offers left and right! Truly the pride of POCU. #POCUForever
+And on top of that, he landed a job at Pearl Abyss, the studio behind the famous titles Black Desert and DokeV. Without further delay, let's dive into his story!
+
+",
+            "date": "Feb 14, 2023",
+            "author": "Yoona"
+        }
+    ,
+        {
+            "title": "About POCU",
+            "link": "/2018/12/10/about-pocu.html",
+            "excerpt": "Founded by Pope Kim, a seasoned software engineer/architect and former faculty member at well-known public and private colleges, POCU is an online-first education service which offers fundamental computer science courses that every top programmer needs to know for their life-long career.
+",
+            "date": "Dec 10, 2018",
+            "author": "DocuBot"
+        }
+    ],
+    
+    
+}
