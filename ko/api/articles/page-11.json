@@ -1,0 +1,100 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 29. 나 왜 맞는 거야",
+            "link": "/2021/02/12/survival-log-29-comp2200-ass4.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-12",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 28. 빌드봇을 굴복시킨자",
+            "link": "/2021/02/09/survival-log-28-buildbot-surrender.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-09",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 27. RGB를 만들자",
+            "link": "/2021/02/05/survival-log-27-comp2500-ass2-rgb.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 26. 유니크 포인터",
+            "link": "/2021/02/02/survival-log-26-comp3200-unique-pointer.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-02",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 25. 끝없는 고통",
+            "link": "/2021/01/29/survival-log-25-comp2500-cry.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-29",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 24. 피자를 만들자",
+            "link": "/2021/01/26/survival-log-24-comp2500-lab6.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-26",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 23. 공격자가 스스로를 공격하는 경우를 테스트합니다",
+            "link": "/2021/01/22/survival-log-23-comp2500-lab5.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-22",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 22. 도전정신",
+            "link": "/2021/01/19/survival-log-22-comp2500-lab4.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-19",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 21. 재귀는 어려워",
+            "link": "/2021/01/15/survival-log-21-comp2500-lab3.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-15",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 20. 주인공 얼굴 변천사",
+            "link": "/2021/01/12/survival-log-20-face-log.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-01-12",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-12.json",
+    
+    
+    "prev": "/api/articles/page-10.json"
+    
+}
