@@ -1,0 +1,100 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 67. 빌드를 해보실까",
+            "link": "/2021/06/25/survival-log-67-try-build-but-failed.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-25",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 66. 와타시가 이걸..?",
+            "link": "/2021/06/22/survival-log-66-did-i-do-this.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-22",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 65. 메모리는 많을수록",
+            "link": "/2021/06/18/survival-log-65-memory-exhausted.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-18",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 64. 논문을 보자",
+            "link": "/2021/06/15/survival-log-64-github-paper.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-15",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 63. 드디어 해답이!",
+            "link": "/2021/06/11/survival-log-63-1-Asnwer.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-11",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 62. 우릴 구하러 왔구나",
+            "link": "/2021/06/08/survival-log-62-0-Asnwer-2.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-08",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 61. 구글링 중 오아시스",
+            "link": "/2021/06/04/survival-log-61-0-Asnwer.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-04",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 60. 코딩은 맞으면서(?)",
+            "link": "/2021/06/01/survival-log-60-muscle-man.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-06-01",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 59. 친절한 빌드봇?",
+            "link": "/2021/05/28/survival-log-59-kind-build-bot.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-05-28",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 58. 파이썬과 다른 언어의 차이",
+            "link": "/2021/05/25/survival-log-58-difference-between-python-and-others.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-05-25",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-8.json",
+    
+    
+    "prev": "/api/articles/page-6.json"
+    
+}

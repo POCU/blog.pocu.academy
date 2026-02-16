@@ -1,0 +1,105 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 13. 특별채용 디버깅 전문가",
+            "link": "/2020/12/18/survival-log-13-comp2500-ass1-build-bot.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-18",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 12. 매개변수 목록",
+            "link": "/2020/12/15/survival-log-12-comp2500-ass1-parameter-name.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-15",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 아카데미 수강 후기 모음 2",
+            "link": "/2020/12/14/reviews-from-2020.html",
+            "excerpt": "POCU 아카데미 수강생 여러분 반갑습니다! 윤아입니다!
+지난 수강 후기 모음에 이어 2020년 1월 학기부터 5월 학기까지 수강 후기를 또 모아봤습니다!
+아직 등록 결정을 망설이는 분들을 위해 도움이 되면 좋겠습니다 ^-^
+",
+            "date": "2020-12-14",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 11. 잔인한 토크나이져",
+            "link": "/2020/12/11/survival-log-11-comp2200-lab4.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-11",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 10. 정면돌파 엔터프라이즈호",
+            "link": "/2020/12/08/survival-log-10-comp2200-lab3.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-08",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 아카데미 수강 후기 모음 1",
+            "link": "/2020/12/07/reviews-from-2019.html",
+            "excerpt": "POCU 아카데미 수강생 여러분 반갑습니다! 윤아입니다!
+저희는 매 학기가 끝나면 해당 학기에 대한 수강 후기를 받고 있어요. (할인 이벤트인 건 안 비밀..) 요즘 수강 후기 블로그를 보고 POCU에 등록하시는 분이 많이 있습니다. 그래서 아직 결정을 망설이는 분들을 위해 도움이 될 만한 후기를 모아봤습니다!
+",
+            "date": "2020-12-07",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "빌드봇이 뭐죠?",
+            "link": "/2020/12/05/what-is-build-bot.html",
+            "excerpt": "안녕하세요, POCU 아카데미 수강생 여러분! 윤아입니다 ^0^/
+POCU 아카데미의 자랑 **자동 채점 시스템(a.k.a. 빌드봇)**을 아시나요!? 바로 밤이나 낮이나 새벽이나 아무 때나 불러내 내 실습/과제 코드를 채점해달라고 괴롭힐 수 있는 채점 시스템입니다. (하지만 채점 후 괴롭혀지는 건 항상 나... 또륵)
+오늘은 빌드봇에 대해 조금 더 자세히 설명해드리도록 하겠습니다. 빌드봇 활용 꿀팁은 덤!
+",
+            "date": "2020-12-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 09. POCU 산 급행 케이블카",
+            "link": "/2020/12/04/survival-log-09-comp1000-ass3.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-04",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "2021년 1월 학기 수강 안내",
+            "link": "/2020/12/03/about-january-2021-term.html",
+            "excerpt": "안녕하세요, POCU 아카데미 대표 강사 김포프입니다. 블로그를 통해서는 오랜만에 인사를 드리게 되었습니다.
+",
+            "date": "2020-12-03",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 08. 시험 환경 테스트",
+            "link": "/2020/12/01/survival-log-08-test-exam.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2020-12-01",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-14.json",
+    
+    
+    "prev": "/api/articles/page-12.json"
+    
+}
