@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blog.pocu.academy/en/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.pocu.academy/en/" rel="alternate" type="text/html" /><updated>2026-02-22T00:31:34+00:00</updated><id>https://blog.pocu.academy/en/feed.xml</id><title type="html">POCU Blog</title><subtitle>Core Skills for Real Programmers</subtitle><entry><title type="html">Is Computer Science Education Without Gender Bias Really Possible? My First Conversation With the Founder</title><link href="https://blog.pocu.academy/en/2025/12/05/sexism-free-cs-education.html" rel="alternate" type="text/html" title="Is Computer Science Education Without Gender Bias Really Possible? My First Conversation With the Founder" /><published>2025-12-05T00:00:00+00:00</published><updated>2025-12-05T00:00:00+00:00</updated><id>https://blog.pocu.academy/en/2025/12/05/sexism-free-cs-education</id><content type="html" xml:base="https://blog.pocu.academy/en/2025/12/05/sexism-free-cs-education.html"><![CDATA[<p>Hello, this is Yoona.</p>
+<p>Not long after I joined POCU, there was a moment during an all-hands town hall when the founder answered the question, &quot;Why doesn't POCU offer offline classes?&quot; What I heard there for the first time was the idea that <strong>gender bias exists severely even inside education, especially in computer science education</strong>, and I was genuinely shocked.</p>
+<!--more-->
+<p>I had always thought of gender bias as a broad social issue, but I had never deeply imagined how it specifically breaks fair evaluation inside classrooms, grading methods, professor–student relationships, and even student–student relationships. That was the first time I clearly understood, &quot;Ah, this is why POCU's structure is designed this way.&quot;</p>
+<p>I felt that this story was too important to stay as something only internal staff heard once and moved on from. I thought it would be valuable to share with current computer science students, future learners, and anyone interested in education. So I decided to organize the story in this blog post and revisit what I heard that day.</p>
+<p>In this series, based on that conversation, I will be asking the founder about <strong>how gender bias appears in computer science education and what kinds of design choices POCU has made to reduce that bias</strong>. And honestly... there are so many other things I want to ask the founder too. (Haha) So I plan to turn this into a series and keep pestering him in future posts. Hehe.</p>
+<h3>1. Why You Left a Professorship to Create POCU</h3>
+<p><strong>Yoona:</strong><br />
+CEO Pope Kim... or rather, Founder! Hello. There is something I've been really wanting to ask you today.</p>
+<p><strong>Pope:</strong><br />
+Hello. Please ask anything freely.</p>
+<p><strong>Yoona:</strong><br />
+Today's topic is gender bias, right? But before jumping straight into that, I feel like we need to understand what problems you saw and what path you walked. I think it will help readers understand better too.</p>
+<p><strong>Pope:</strong><br />
+Sure. Where should we start?</p>
+<p><strong>Yoona:</strong><br />
+You were already considered one of the top engineers in the industry, yet you went into academia as a professor. I always found that fascinating. It felt like going from a highly successful industry career to a public university professor was a big shift. Was there a particular mission behind it?</p>
+<p><strong>Pope:</strong><br />
+It wasn't as grand as having a big mission. I had actually been noticing issues in the education system for a long time. Almost ten years into industry work, I kept running into the same reality: &quot;It's really hard to find good developers.&quot; So I had always been thinking that someday I wanted to fix something in education.</p>
+<p>Eventually I ended up in a position where I was conducting final interviews for developer candidates. Through that experience, my conviction grew stronger. I noticed that the skill levels of applicants were becoming increasingly unstable across generations. I was especially surprised when seeing graduates from my own alma mater. Because I knew their curriculum very well, I expected a certain baseline of preparedness. But repeatedly, that baseline was not met, and I began wondering more seriously, &quot;What is happening in the education system right now?&quot;</p>
+<p>So becoming a professor was not a sudden decision but <strong>part of a process to directly examine the field and, if possible, fix it</strong>. I needed to see the structural problems with my own eyes, and if they were solvable, I wanted to attempt to solve them myself.</p>
+<p><strong>Yoona:</strong><br />
+Wow... so you went into academia to confirm the problems and try fixing them if possible?</p>
+<p><strong>Pope:</strong><br />
+Yes. I wanted firsthand understanding and wanted to try improving things using approaches I believed in.</p>
+<p><strong>Yoona:</strong><br />
+But eventually, you left the professorship. What did you see that made you decide to step out?</p>
+<p><strong>Pope:</strong><br />
+Once inside, I found problems different from what I saw in the industry, and these were more fundamental. The biggest issue was that <strong>it was structurally extremely difficult to objectively evaluate skill</strong>.</p>
+<p>This is not something an individual professor can fix.</p>
+<p><strong>Yoona:</strong><br />
+Is that problem really that serious?</p>
+<p><strong>Pope:</strong><br />
+Yes. If fair, skill-based evaluation collapses, students shift from thinking about &quot;how to learn&quot; to &quot;how to get points.&quot; That lowers the overall level of skill over time.</p>
+<p>So I realized that patching the existing system would not solve the problem.</p>
+<p><strong>Yoona:</strong><br />
+So you decided to build a whole new education system?</p>
+<p><strong>Pope:</strong><br />
+Yes. I concluded that <strong>a fairness-based skill evaluation environment must be built from scratch</strong>. That is the origin of POCU.</p>
+<p><strong>Yoona:</strong><br />
+Then gender bias is one of those structural issues that undermine fairness?</p>
+<p><strong>Pope:</strong><br />
+Correct. Gender bias exists, but <strong>it was not the main reason I left academia</strong>. The root cause was <strong>a system where fair evaluation is fundamentally difficult</strong>. Gender bias is simply <strong>one example of the kinds of problems that break fairness</strong>.</p>
+<p><strong>Yoona:</strong><br />
+Ah, so gender bias is one slice of a much larger problem, and today we are zooming in on that slice?</p>
+<p><strong>Pope:</strong><br />
+Exactly. Today we will focus on <strong>how gender bias shakes fairness and why it matters in education</strong>.</p>
+<h2>2. How Gender Bias Breaks Fairness</h2>
+<p><strong>Yoona:</strong><br />
+Then let's get into the main topic. Gender bias in computer science... how exactly does it show up?</p>
+<p><strong>Pope:</strong><br />
+When we say gender bias, people usually think of &quot;female students being discriminated against.&quot; But the issue is far more structural. Because of gender, some students are undervalued, while others receive excessive help and lose opportunities to grow. Either way, <strong>the skill-building process becomes distorted</strong>.</p>
+<p><strong>Yoona:</strong><br />
+Yes, I've heard &quot;You just do the presentation&quot; many times in group projects. At first it felt convenient, but later I felt like the scope of what I could do kept shrinking.</p>
+<p><strong>Pope:</strong><br />
+Exactly. Gender bias is not just about unpleasant experiences. It is <strong>a structural force that determines what skills a student gets to build</strong>.</p>
+<p>And the issue does not come only from professors or adults. <strong>Students themselves</strong> create these structures. Male students take over technical tasks, while female students are assigned other roles, or the opposite happens where female students receive unnecessary help. Either way, fairness is broken.</p>
+<p>When students appear to avoid certain roles, it is not always a purely personal choice. Humans are <strong>highly influenced by expectations and feedback from their environment</strong>. If the environment makes certain choices feel natural or easier, those choices are repeated and can eventually alter a student's career trajectory or confidence.</p>
+<h3>How Male-Dominated Fields Magnify Bias</h3>
+<p><strong>Yoona:</strong><br />
+Since computer science is male-dominated, I imagine the problem becomes worse?</p>
+<p><strong>Pope:</strong><br />
+Correct. Whenever one gender heavily dominates a field, special treatment and distorted expectations almost inevitably appear. This is not unique to Korea. It was <strong>a serious issue at the North American university</strong> where I taught as well.</p>
+<p>And importantly, this is not exclusively a female issue. In <strong>female-dominated fields</strong>, the opposite happens. Male students become the minority and are undervalued or pushed into stereotypical roles.</p>
+<p>So the real issue is not &quot;women are discriminated against,&quot; but <strong>minorities of any kind suffer structural bias</strong>.</p>
+<h3>Gender Bias as a Fairness Problem</h3>
+<p><strong>Pope:</strong><br />
+That is why I do not view gender bias as merely a gender inequality issue. The deeper problem is <strong>distorted evaluation</strong>.</p>
+<p>This applies not only to gender minorities but also to:</p>
+<ul>
+<li>Quiet students</li>
+<li>Introverted students</li>
+<li>Students uncomfortable with self-promotion</li>
+<li>Anyone who differs from the group's average expectations</li>
+</ul>
+<p>In other words: <strong>gender bias is part of a broader issue where any deviation from the majority creates unfairness in evaluation</strong>.</p>
+<h2>3. How POCU Designed a System That Protects Fairness</h2>
+<p><strong>Yoona:</strong><br />
+Understanding these structural issues helps me see why POCU made certain design choices. Is this why you insist on being online-only?</p>
+<p><strong>Pope:</strong><br />
+There were several reasons, but yes, the online environment plays a major role. Many sources of unfairness come from <strong>information visible in face-to-face environments</strong>: gender, appearance, voice, communication style, personality.</p>
+<p>Of course, in the long run society needs to reduce these biases structurally. But at the scale of one organization, <strong>online is the most effective way to secure fairness</strong>.</p>
+<p>So online-only is not for convenience. It is a <strong>philosophical requirement</strong>.</p>
+<h3>Why Online-Only Is a Core Principle</h3>
+<p><strong>Pope:</strong><br />
+POCU was designed from day one with &quot;online-only&quot; as a <strong>core educational philosophy</strong>.</p>
+<p>Removing the physical classroom reduces hierarchy, social pressure, and subtle interpersonal expectations. What remains is <strong>only skill and results</strong>. So online-only is not about cost but <strong>a prerequisite for fair evaluation</strong>.</p>
+<h3>Why POCU Does Not Collect Gender Information</h3>
+<p><strong>Yoona:</strong><br />
+I was also surprised that the company DB contains <strong>no gender field at all</strong>.</p>
+<p><strong>Pope:</strong><br />
+Right. We do not collect any information that is unnecessary for education. This prevents unconscious bias and prevents developers from accidentally creating features that use that data.</p>
+<p>The safest way is to <strong>not have the data at all</strong>.</p>
+<h3>Anonymous Discussion Spaces</h3>
+<p><strong>Yoona:</strong><br />
+But one question. You emphasize fairness so much that POCU does not even collect gender, yet the discussion space (Slack) encourages Q&amp;A. Some students use real names. Is that okay?</p>
+<p><strong>Pope:</strong><br />
+Good question. By principle, we <strong>do not force real names</strong>. In fact, we <strong>recommend pseudonyms</strong>. Staff and TAs are <strong>required</strong> to use pseudonyms so students naturally feel that pseudonyms are the norm.</p>
+<p>The only person required to use a real name is me, the founder, for accountability and for providing a consistent reference point.</p>
+<p>Exposing personal information is a student’s choice. Some have used real names and helped build a great community. But that was their individual capability, not a structural bias from POCU.</p>
+<p>To summarize:</p>
+<p>Slack = <strong>optional exposure</strong><br />
+Discussion room = <strong>full anonymity</strong></p>
+<h3>Why Evaluation Cannot Be Biased</h3>
+<p><strong>Yoona:</strong><br />
+Slack allows optional exposure, but in evaluation, is it truly impossible for bias to creep in?</p>
+<p><strong>Pope:</strong><br />
+Yes. The evaluation system is designed so that <strong>bias structurally cannot occur</strong>.</p>
+<p>Assignments are entirely auto-graded. For exams, graders cannot see any personal data. And they grade <strong>per-question</strong>, not per-student. Answers are shuffled, and a grader never sees a full exam from a single student.</p>
+<p>Bias has no opportunity to form because <strong>the system prevents graders from forming any impression of a particular student</strong>.</p>
+<p><strong>Yoona:</strong><br />
+This could be a separate series on its own! Please explain more next time. (laughs)</p>
+<p><strong>Pope:</strong><br />
+Sure. There is a lot to say about how we defend fairness technically and operationally.</p>
+<h2>4. POCU's Social Role</h2>
+<p><strong>Yoona:</strong><br />
+Hearing all this, POCU feels less like a company selling courses and more like it has a kind of <strong>social role</strong>.</p>
+<p><strong>Pope:</strong><br />
+(waves hands) Oh no, it feels too grand to say that. I simply <strong>wanted to fix the problems I personally saw</strong>. Watching fairness break down in education made me think, &quot;At least let me fix the part I can reach.&quot;</p>
+<p>Gender imbalance is a societal issue, not something one company can solve. But <strong>within the domain of fair skill evaluation</strong>, there is meaningful work we can do. POCU is run with the mindset of &quot;Let's build the part we can control properly.&quot;</p>
+<p><strong>Yoona:</strong><br />
+Hearing your philosophy makes me understand POCU's structure much more deeply. Working here feels even more meaningful now.</p>
+<p>Shall we wrap up for today? I learned so much. Thank you for sharing.</p>
+<p><strong>Pope:</strong><br />
+Hold on... you sound like you're giving a closing remark. (laughs) We'll see each other at work tomorrow.</p>
+<p><strong>Yoona:</strong><br />
+Ah, right. Haha. Guess I slipped into interview mode. Then... see you tomorrow!</p>
+<p><strong>Pope:</strong><br />
+Yes, see you. And if you prepare questions like today, I'm always ready to answer. (laughs)</p>
+<p><strong>Yoona:</strong><br />
+Oh! So you're saying it's okay to continue the series. I will take that as permission.</p>
+<p>Everyone, see you again in the next episode!</p>]]></content><author><name>Yoona</name></author><category term="news" /><category term="pocu-philosophy" /><category term="founder-interview" /><category term="fairness" /><category term="interview" /><summary type="html"><![CDATA[Hello, this is Yoona. Not long after I joined POCU, there was a moment during an all-hands town hall when the founder answered the question, &quot;Why doesn't POCU offer offline classes?&quot; What I heard there for the first time was the idea that gender bias exists severely even inside education, especially in computer science education, and I was genuinely shocked.]]></summary></entry><entry><title type="html">Why We Allow Only 30 Minutes for Post‑Grading Result Review</title><link href="https://blog.pocu.academy/en/2025/10/20/about-exam-review-duration.html" rel="alternate" type="text/html" title="Why We Allow Only 30 Minutes for Post‑Grading Result Review" /><published>2025-10-20T00:00:00+00:00</published><updated>2025-10-20T00:00:00+00:00</updated><id>https://blog.pocu.academy/en/2025/10/20/about-exam-review-duration</id><content type="html" xml:base="https://blog.pocu.academy/en/2025/10/20/about-exam-review-duration.html"><![CDATA[<p>Hello everyone—this is <strong>Yoona</strong>.</p>
+<p>We're kicking off a new series that <strong>introduces POCU's internal systems</strong>. The first topic is something many of you have asked about: <strong>the post‑grading result review window</strong> (below, simply <em>review window</em>). At POCU, the review window is <strong>about 30 minutes</strong>. Why? Not for convenience, but because it's an <strong>educational design</strong> meant to support your <strong>long‑term growth</strong> and <strong>industry readiness</strong>.</p>
+<!--more-->
+<h2>What POCU Exams Ask: Practical Fundamentals</h2>
+<p>POCU exams are built to <strong>practically assess core computer‑science theory</strong>. Companies that hire serious engineers ultimately want to know <strong>whether you understand the fundamentals and can explain them</strong>. In fact, many student interview reports say that <strong>topics covered in POCU exams show up again in interviews</strong>. The industry consistently values POCU students for their <strong>solid fundamentals and practical mindset</strong>.</p>
+<p>In short, if you're aiming for the <strong>top 1% programmer</strong> tier, mastering the theory you learn in university isn't optional—it's <strong>essential</strong>.</p>
+<h2>Exams vs. Interviews — and What to Do Now</h2>
+<p>They may sound similar, but <strong>the way you prepare and review is different</strong>—and recognizing that difference clarifies <strong>what you should do right now</strong>.</p>
+<ul>
+<li><strong>Exams</strong> have defined scope. With good planning, <strong>advance preparation</strong> plus <strong>immediate post‑exam review</strong> is enough to handle them well.</li>
+<li><strong>Interviews</strong> are broad and variable. A <strong>pure memorization strategy</strong> will not carry you through.</li>
+</ul>
+<p>That's why, even at the school stage, POCU trains what you need <strong>&quot;right here, right now.&quot;</strong> If you can't build a habit of <strong>pre‑review</strong> even for exams, you'll find it <strong>even harder</strong> to do so in interviews.</p>
+<h2>Why ~30 Minutes — A Design That Protects Pre‑Study &amp; Pre‑Review</h2>
+<p>When the review window is long, it's tempting to think, &quot;I'll just study then.&quot; But <strong>there's no lucky shortcut for catching up on what you didn't study ahead of time</strong>. In the end, you'll need to <strong>go back and relearn everything you skipped</strong>.</p>
+<p>So POCU keeps the review window to <strong>about 30 minutes</strong>. This time window is designed to:</p>
+<ol>
+<li>Preserve the value of <strong>advance preparation and immediate post‑exam review</strong>;</li>
+<li>Build the habit of <strong>quickly confirming only what needs correction</strong>;</li>
+<li>Train you to <strong>present key evidence within time constraints</strong>, just like real interviews and on‑the‑job scenarios.</li>
+</ol>
+<p>Put simply, the review window is <strong>not for learning new material</strong>—it's <strong>for making corrections</strong>.</p>
+<h2>How to Use the Review Window Well</h2>
+<p>The review window is also excellent for sharpening your <strong>objective self‑assessment</strong>. Try this flow:</p>
+<h3>1) Before the exam</h3>
+<ul>
+<li>Create a <strong>fundamental‑concept checklist</strong> based on the course scope.</li>
+<li>Imagine &quot;What would an interviewer ask?&quot; and write a <strong>one‑paragraph explanation</strong>. (You should be able to explain concepts both orally and in writing.)</li>
+</ul>
+<h3>2) Right after the exam (before grades are released)</h3>
+<ul>
+<li>While the memory is fresh, write down an <strong>&quot;uncertain items&quot; list (3–5 points)</strong>.</li>
+<li>In the <strong>Midterm/Final channels</strong>, run <strong>evidence‑based discussions</strong> to refine your hypotheses<br />
+(include <strong>supporting references</strong> such as lecture notes/slides/official documentation).</li>
+</ul>
+<h3>3) After grades are released (review window ~30 minutes)</h3>
+<ul>
+<li>Submit regrade requests concisely as <strong>one‑line claim + one‑line rationale + supporting link</strong>.</li>
+<li>Compare your post‑exam predictions with actual results to check <strong>alignment</strong>:
+<ul>
+<li><strong>If alignment is high:</strong> quickly fix the <strong>small set of missed points</strong>.</li>
+<li><strong>If alignment is low:</strong> <strong>redesign your study/review method</strong>. (Over‑doubting yourself isn't healthy, but <strong>unwarranted overconfidence</strong> is riskier.)</li>
+</ul>
+</li>
+</ul>
+<h2>Common Misconceptions, Clarified</h2>
+<ul>
+<li><strong>&quot;Thirty minutes is too short.&quot;</strong> → If it feels short, that may signal <strong>insufficient pre‑review</strong>. The review window is a <strong>correction channel</strong>, not a study session.</li>
+<li><strong>&quot;I want to learn the missed topics on the spot.&quot;</strong> → The most effective learning happens <strong>from right after the exam until grades are released</strong>. If you review thoroughly then, the review window naturally becomes a <strong>quick confirmation step</strong>.</li>
+<li><strong>&quot;I couldn't memorize the whole scope.&quot;</strong> → Interviews cover <strong>much broader</strong> ground; memorization won't sustain you. From the school stage, you need a loop of <strong>understand → explain → review</strong> to survive and thrive in interviews.</li>
+</ul>
+<h2>Final Thoughts</h2>
+<p>Our ~30‑minute review window is <strong>designed for you</strong>. It helps you build the habits of <strong>studying in advance, reviewing immediately, and arguing from evidence</strong>. Once those habits set in, the <strong>breadth</strong> of interview topics becomes less intimidating—and your skills compound with each pass.</p>]]></content><author><name>Yoona</name></author><category term="news" /><category term="faq" /><category term="guide" /><category term="pocu-philosophy" /><category term="policy" /><category term="exam" /><summary type="html"><![CDATA[Hello everyone—this is Yoona. We're kicking off a new series that introduces POCU's internal systems. The first topic is something many of you have asked about: the post‑grading result review window (below, simply review window). At POCU, the review window is about 30 minutes. Why? Not for convenience, but because it's an educational design meant to support your long‑term growth and industry readiness.]]></summary></entry><entry><title type="html">Success Story 9: Right After Graduation, Straight Into the Hottest Game Studio! Alegruz, Game Engine Programmer at Pearl Abyss</title><link href="https://blog.pocu.academy/en/2023/02/14/success-story-of-a-fresh-graduate-who-got-a-job-from-pearl-abyss.html" rel="alternate" type="text/html" title="Success Story 9: Right After Graduation, Straight Into the Hottest Game Studio! Alegruz, Game Engine Programmer at Pearl Abyss" /><published>2023-02-14T00:00:00+00:00</published><updated>2023-02-14T00:00:00+00:00</updated><id>https://blog.pocu.academy/en/2023/02/14/success-story-of-a-fresh-graduate-who-got-a-job-from-pearl-abyss</id><content type="html" xml:base="https://blog.pocu.academy/en/2023/02/14/success-story-of-a-fresh-graduate-who-got-a-job-from-pearl-abyss.html"><![CDATA[<p>Hello, POCU Academy students! This is Yoona!</p>
+<p>Today's success story features game engine programmer Alegruz. Our POCU students really don't waste time—graduating from university and <em>immediately</em> smashing job offers left and right! Truly the pride of POCU. #POCUForever</p>
+<p>And on top of that, he landed a job at Pearl Abyss, the studio behind the famous titles <em>Black Desert</em> and <em>DokeV</em>. Without further delay, let's dive into his story!</p>
+<p><img src="/ko/assets/img/20230214/pearl-abbyss-logo.png" alt="Pearl Abyss Logo" /></p>
+<!--more-->
+<h4>Hello! I'm today's interviewer, Yoona. Could you start by briefly introducing yourself?</h4>
+<p>Hello. I graduated this year (2022) with a major in Software Engineering, and starting next year (2023), I'll be working as a Game Engine Programmer at Pearl Abyss. My handle is &quot;Alegruz.&quot;</p>
+<h4>Amazing. Congratulations! So what kind of work are you doing right now?</h4>
+<p>Uh... I apologize, but since my official start date hasn't arrived yet, I can't say I've <em>actually</em> begun working. But broadly speaking, I'll be joining as a junior developer on the Black Space engine, Pearl Abyss's next-generation in-house engine that will power their future projects.</p>
+<h4>What made you interested in programming? How did you get started?</h4>
+<p>I've always loved creating things—music, writing novels, shooting videos... even architecture has started to interest me lately. Games bring all of those creative elements together <em>and</em> add fun on top, so naturally I became fascinated with them.</p>
+<p>But I didn't start programming early. As an elementary schooler, I designed RPG systems in notebooks using MapleStory's item data, or created maps using the StarCraft editor.
+In middle school, I made game music and created games with GameMaker, though its scripting language was too hard for me at the time, so I stuck to visual scripting.
+In high school, academics took over, so the only &quot;game-related&quot; thing I did was write a mini-thesis about games.</p>
+<p><a href="https://youtu.be/UProw1LhcgY?t=60">Game made while high on creativity: Daedoseogwan's Let's Play – &quot;Our Kitty Has a Disability!&quot;</a><br />
+<em>My unofficial &quot;industry debut&quot;: Our Kitty Has a Disability!</em></p>
+<p>If I think back to middle school, I used to collaborate online with different people on hobby game projects. I admired the programmers so much that it naturally pushed me toward Computer Engineering in high school. That led to entering university as a Software major, and I learned my first programming language there: Python.</p>
+<h4>Oh wow, that's more structured than I expected. How did you discover POCU Academy?</h4>
+<p>I started watching <em>Pope Kim's</em> YouTube videos back in high school. I followed his updates pretty closely. After entering university, I even thought, &quot;Wow... imagine if this monster taught at my school.&quot; LOL. Later, when I was in the military, I learned through YouTube that Pope was launching POCU Academy.</p>
+<h4>Your POCU fandom is strong! What courses did you take?</h4>
+<ul>
+<li>C++ Unmanaged Programming</li>
+<li>Object-Oriented Programming &amp; Design</li>
+<li>Algorithms &amp; Data Structures</li>
+</ul>
+<h4>Did you have any expectations before taking the courses? And did they meet those expectations?</h4>
+<p>Honestly, I didn't have expectations. Expectations are like assuming something specific will be given to you, right? Instead, I approached the courses like getting on a rollercoaster—<em>just let it take me wherever it wants.</em> Rather than setting an upper limit, I wondered, &quot;How high can this course take me?&quot; And that's exactly the feeling I got, especially with the first course: C++ Unmanaged Programming.</p>
+<h4>Cool mindset! That said, were there any difficulties or things you wished were better?</h4>
+<p>Well... yes, all three courses were difficult... T_T As for downsides... I'm not sure if I should say this, but from a student's perspective: the cost is killer. Also, I think beginners would appreciate a bit more guidance or simple concrete examples on debugging and testing.</p>
+<p>Another thing... I'm heading into full-time work soon, so I worry I won't have time to take more POCU courses... yet assembly class got delayed...? (Half joke, half truth LOL)</p>
+<h4>Noted... ahem. After completing your POCU courses, what changes did you experience? Career or mindset—anything is fine.</h4>
+<p>When I took C++ Unmanaged Programming, I was still a soldier. After finishing it, I got discharged and immediately returned to school. That semester, I took a Data Structures course at university—and it felt <em>way too easy</em>. Even the exercises felt basic compared to POCU. It was surreal.</p>
+<p>Curious about my skill level, I applied for game company internships and entry-level positions.
+I got rejected from all internships (probably because I was only a 2nd-year). But strangely, I passed the first round for a Nexon-affiliated studio as a full-time applicant and received a coding assignment. The assignment was extremely difficult—stuff I'd never done before—so I completed only about 60%. I thought it was over. But then they contacted me saying I passed and invited me for an interview. The 1st interview was technical; I solved problems calmly, assuming I wouldn't pass anyway.   ones I solved were entirely based on what I learned at POCU. Then the 2nd interview came—with several intimidating 40-something directors. In the end, I didn't pass final selection.</p>
+<p>But honestly, I never expected to even <em>reach</em> the final interview. POCU's C++ course had clearly leveled me up beyond what I realized. That's when I became certain:</p>
+<p><strong>&quot;POCU Academy's courses can be trusted. Just follow them.&quot;</strong><br />
+#POCUForever2</p>
+<p>Beyond programming skill, POCU taught me confidence. By my 4th year, I didn't prepare on LeetCode. I'd done POCU and studied core CS at school—I felt prepared.</p>
+<p>And in the end, I passed the recruitment-linked internship at Pearl Abyss as a game engine programmer, and that led to a full-time offer. I never solved a single LeetCode problem, and still got a full-time job before graduation.</p>
+<h4>Thank you for sharing! Any advice for future POCU students (&quot;POCUlers&quot;)?</h4>
+<p>Let's talk money first.</p>
+<p>Is it worth it?<br />
+Yes. Without a doubt.</p>
+<p>You may feel the video lectures alone are expensive. They <em>are</em>. But they're worth the value. However, it's not a small investment—so taking these courses casually or without preparation is a waste.</p>
+<h4>Any tech fields you're currently interested in that you'd like to share?</h4>
+<p>I'm very into the series of techniques that originated from ReSTIR in the Real-Time Path Tracing area:</p>
+<p>ReSTIR, ReSTIR GI, RTXDI, World-Space ReSTIR, Volumetric ReSTIR, GRIS (ReSTIR PT), Resampled DDGI, and so on.</p>
+<h4>What are your future plans? Any goals as a game engine programmer?</h4>
+<p>I want to build a custom engine that can be used as:</p>
+<ul>
+<li>course material</li>
+<li>lab exercise framework</li>
+<li>team project tool<br />
+at my alma mater.</li>
+</ul>
+<p>If such an engine were built by alumni who actually work in the industry, I think it would help produce even stronger developers from the school.</p>
+<h4>Your loyalty to your alma mater is admirable. Lastly, any final message?</h4>
+<p>POCU Academy's first course is COMP0000, the beginner course. That's important, but here's my personal belief:</p>
+<p>The real first step to becoming a developer is English. LOL</p>
+<p>Don't slack on your English studies! You'll absolutely need it.</p>]]></content><author><name>Yoona</name></author><category term="news" /><category term="success-story" /><category term="interview" /><category term="news" /><summary type="html"><![CDATA[Hello, POCU Academy students! This is Yoona! Today's success story features game engine programmer Alegruz. Our POCU students really don't waste time—graduating from university and immediately smashing job offers left and right! Truly the pride of POCU. #POCUForever And on top of that, he landed a job at Pearl Abyss, the studio behind the famous titles Black Desert and DokeV. Without further delay, let's dive into his story!]]></summary></entry><entry><title type="html">About POCU</title><link href="https://blog.pocu.academy/en/2018/12/10/about-pocu.html" rel="alternate" type="text/html" title="About POCU" /><published>2018-12-10T00:00:00+00:00</published><updated>2018-12-10T00:00:00+00:00</updated><id>https://blog.pocu.academy/en/2018/12/10/about-pocu</id><content type="html" xml:base="https://blog.pocu.academy/en/2018/12/10/about-pocu.html"><![CDATA[<p>Founded by Pope Kim, a seasoned software engineer/architect and former faculty member at well-known public and private colleges, POCU is an online-first education service which offers fundamental computer science courses that every top programmer needs to know for their life-long career.</p>
+<h2>Proudly Unaccredited</h2>
+<p>POCU is an unaccredited institute, and we are proud of it! (for many reasons that we plan to share via future blog posts) In short, it is more important for us to build our Core program that consists of a dozen of fundamental computer science courses than going through tedious and accreditation process that does not necessarily guarantee the quality of computer science education. (If you check out what is happening to the computer science graduates from many colleges, you will know what we mean.)</p>
+<p>This also means that we are self-funded. If we do not deliver what we promise, we will be responsible. Thus, we have our best interest in ensuring our students' success.</p>
+<p>If you are looking for a certificate, diploma or degree, please look somewhere else.</p>
+<h2>High Expectation, High Workload</h2>
+<p>We do understand that current education trend is &quot;education for everyone&quot;. While we see the importance of it, we also think it could be dangerous especially if you want to become a top 1% programmer. We are here to train the next generation of great programmers, so our expectation on you is super high. We won't even let you pass a course unless you get 85%!</p>
+<p>If you are not serious about being the best, or do not like to work hard, POCU is not for you.</p>
+<h2>Best of Two Worlds</h2>
+<p>No education settings are perfect, but we try our best to take pros from both physical and online schools while minimizing cons of both worlds.</p>
+<h3>Online Video Lectures at Your Pace</h3>
+<p>All our video lectures are offered online, and you can watch them whenever and wherever your want. In general, this form of lecture delivery is superior than class settings. For example, you can double the play speed if you are a fast thinker. Also, you can replay any portion of a lecture if you happened to zone out for a minute. Or maybe you will never zone out if quizzes are asked every 10 minutes during a video lecture. ;)</p>
+<p>However, there is a big problem with any video lectures: there is no interaction between you and other students or between you and the instructor. To solve it, we offer a chat room where you can ask questions and collaborate with other students. Also, we plan to offer &quot;office hours&quot; where your questions are answered on live.</p>
+<h3>Real-time Feedback on Your Homework Without Being Lousy</h3>
+<p>Being an online-first education provider, we automated the grading process for your labs and assignments. (But not for exams!) You probably have seen other online providers doing this, but we are different in two ways.</p>
+<ol>
+<li><strong>We also grade your coding style:</strong> we grade your work not only on the functionalities, but also on coding style. As industry veterans, we detest perfectly functioning codes that no one can read. We train you to become a real professional who can code and collaborate.</li>
+<li><strong>We do not force you to code in web browsers:</strong> Web browser is for web surfing, not for coding. We allow you to use real IDEs (Integrated Development Environment) that professionals use.</li>
+</ol>
+<p>We tested this real-time feedback system at a college with a great success. From the statistics we gathered from the college class, we found that most students think their work is good when they make the first submission whether they are allowed to re-submit their work or not. But the average grade of the first submission usually sits around 60%. When the real-time feedback system was not offered, this was the average grade students received. However, with the plus resubmission allowed, the average became over 95%. The beauty of the system is is not about the higher grade they got, but about the coding practices and debugging skills they had to develop to get there.</p>
+<p>We found that students who used this system became more proficient in implementation and debugging, in general</p>
+<h3>Real Exams</h3>
+<p>Sure, an online course without an exam makes you feel great. However, this gives you an illusion that you mastered something that you still do not understand. This is a critical problem with a lot of online education providers. While we focus on practical, hands-on learning, we see equal importance in understanding core computer science concepts: If you do not have the latter, you can still get a job after school, but you won't last for long.</p>
+<p>For that, we &quot;force&quot; you to take midterm and/or final exam for each course that we offer. These exams will be proctored so that everyone's grade is fair and free from cheating. Also, these exams will not be all multiple choices. Multiple choice questions make our life easy, (i.e., easy to grade and easy to mark), but absolutely do not push you hard enough to try to understand core computer science concepts.</p>
+<h2>Still in Beta, But Works Great</h2>
+<p>We are still in beta, but most of the essential functionalities for your core learning experience is already there. We just could not get to nice-to-have features and marketing materials ready yet. Please look for new features and more blog posts in a near future!</p>
+<p>Happy POCU-ing!</p>]]></content><author><name>DocuBot</name></author><category term="news" /><category term="news" /><summary type="html"><![CDATA[Founded by Pope Kim, a seasoned software engineer/architect and former faculty member at well-known public and private colleges, POCU is an online-first education service which offers fundamental computer science courses that every top programmer needs to know for their life-long career.]]></summary></entry></feed>

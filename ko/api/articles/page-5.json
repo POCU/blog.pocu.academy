@@ -1,0 +1,100 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 86. 테슬라 AI",
+            "link": "/2021/09/03/survival-log-86-tesla-ai.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-09-03",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 85. POCU 삼형제",
+            "link": "/2021/08/27/survival-log-85-POCU-three-brothers.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-27",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 84. 남은 건 최적화",
+            "link": "/2021/08/24/survival-log-84-All-that's-left-is-optimization.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-24",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 83. 배움의 기쁨",
+            "link": "/2021/08/20/survival-log-83-joy-of-learning.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-20",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 82. 피라미드 쌓기",
+            "link": "/2021/08/17/survival-log-82-build-pyramids.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-17",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 81. AI vs AI",
+            "link": "/2021/08/13/survival-log-81-AI-vs-AI.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-13",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 80. 속였구나",
+            "link": "/2021/08/10/survival-log-80-you-lied.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-10",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "2021년 9월 학기 수강 안내",
+            "link": "/2021/08/09/about-september-2021-term.html",
+            "excerpt": "안녕하세요, POCU 아카데미 대표 강사 김포프입니다.
+",
+            "date": "2021-08-09",
+            "author": "김포프"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 79. 기술 세미나",
+            "link": "/2021/08/06/survival-log-79-technical-seminar.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-06",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 78. 실습7의 의도2",
+            "link": "/2021/08/03/survival-log-78-purpose-of-lab7-2.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-08-03",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-6.json",
+    
+    
+    "prev": "/api/articles/page-4.json"
+    
+}

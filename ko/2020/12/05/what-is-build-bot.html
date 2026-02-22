@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W62QGQR');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+
+    <title>빌드봇이 뭐죠? | POCU 블로그</title>
+    
+    
+    
+    <link rel="stylesheet" href="/ko/assets/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/ko/assets/css/site.css?1771720297372628454" />
+    <link rel="stylesheet" href="/ko/assets/css/prism-pocu.min.css" />
+
+    <link rel="shortcut icon" href="/ko/assets/favicon.ico" />
+
+    <link rel="canonical" href="https://blog.pocu.academy/ko/2020/12/05/what-is-build-bot.html" />
+
+<link type="application/atom+xml" rel="alternate" href="https://blog.pocu.academy/ko/feed.xml" title="POCU 블로그 | All" />
+<link type="application/atom+xml" rel="alternate" href="https://blog.pocu.academy/ko/feed/news.xml" title="POCU 블로그 | News" />
+
+
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&subset=korean&display=block" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W62QGQR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light shadow-sm px-3 px-sm-0 py-lg-3 bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="/ko/">
+            <img class="mt-2 mb-2" src="/ko/assets/img/navbar_logo.png" /> | 블로그
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav ml-auto mr-lg-3">
+    <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="/ko/archives/">모든글</a>
+    </li>
+    <li class="vertical-divider d-none display-lg-list-item mx-lg-2"></li>
+    <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="https://pocu.academy/ko/Courses">코스목록</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="https://pocu.academy/ko/About">POCU 소개</a>
+    </li>
+    <li class="vertical-divider d-none display-lg-list-item mx-lg-2"></li>
+        <a class="nav-link font-weight-bold" href="https://pocu-ko.teachable.com/l/products">동영상 강의</a>
+    <li class="vertical-divider d-none display-lg-list-item mx-lg-2"></li>
+</ul>
+<a class="btn btn-primary-pocu px-4 py-1 font-weight-bold" href="https://pocu.academy">시작하기</a>
+
+        </div>
+    </div>
+</nav>
+
+    <div class="container doc">
+        <div class="pt-4 pb-4">
+    <div class="row no-gutters">
+        <div class="col-lg-10 offset-lg-1">
+            <article class="shadow--md px-md-5 py-md-5 border--md rounded">
+                <header>
+                    <h1 class="card-title text-center mb-4 font-weight-bold">빌드봇이 뭐죠?</h1>
+                    <div class="h6 text-muted text-center mb-4 mb-md-5"><img width="70" src="/ko/assets/img/authors/yoona.png" class="rounded-circle mx-auto d-block mb-3" />
+                        <span
+                            class="h6 border border-dark border-left-0 border-top-0 border-bottom-0 pr-2 pr-lg-3 align-middle">
+                            윤아</span>
+                        
+
+                        <span class="h6 text-muted align-middle pl-1 pl-lg-2">
+                            <i class="far fa-calendar-alt mr-2 opacity-75"></i>
+                            2020-12-05
+                        </span><ul class="list-inline list-unstyled mt-2">
+                            <li class="list-inline-item align-middle opacity-75"><small><i
+                                        class="fas fa-tags"></i></small></li>
+                        
+                            
+                             
+                            
+                            <li class="list-inline-item align-middle">
+                                <small><a class="tag-link" href="/ko/tags/guide/">가이드</a></small>
+                            </li></ul></div>
+                </header>
+                <section class="pt-4 pb-4 pb-md-5 border border-top-0 border-right-0 border-left-0">
+                    <p>안녕하세요, POCU 아카데미 수강생 여러분! 윤아입니다 ^0^/</p>
+<p>POCU 아카데미의 자랑 **자동 채점 시스템(a.k.a. 빌드봇)**을 아시나요!? 바로 밤이나 낮이나 새벽이나 아무 때나 불러내 내 실습/과제 코드를 채점해달라고 괴롭힐 수 있는 채점 시스템입니다. (하지만 채점 후 괴롭혀지는 건 항상 나... 또륵)</p>
+<p>오늘은 빌드봇에 대해 조금 더 자세히 설명해드리도록 하겠습니다. 빌드봇 활용 꿀팁은 덤!</p>
+<!--more-->
+<h2>빌드봇이란?</h2>
+<p><img src="/ko/assets/img/20201202/Pink-BuildBot.png" alt="빌드봇 상상도" /><br />
+빌드봇 상상도 (<a href="https://blog.naver.com/fergcd/">fergcd님</a> 웹툰)</p>
+<p>하하.. 많은 분들이 빌드봇에게 시달린 경험이 있으셔서 그런지 저런 묘사도 나오는군요. 하지만 우리의 빌드봇은 꽤나 귀여운 녀석이랍니다!</p>
+<p><img src="/ko/assets/img/20201202/BuildBot.png" alt="빌드봇" /></p>
+<p>빌드봇은 여러분이 슬랙 명렁어를 통해 제출한 코드를 빌드(build)해 명세서에 나온 요구와 비교하여 자동으로 채점을 하는 시스템입니다.</p>
+<p>먼저 간단한 사용법을 알려드릴게요.</p>
+<p>빌드봇에게 내릴 수 있는 명령은 세 가지입니다.<br />
+아무 채널에서 아래 명령어를 치면 빌드봇이 알아서 검사해줄거예요 :)</p>
+<ul>
+<li>
+<p><code>/build assignment 1</code> (과제 1을 채점해줘!)</p>
+</li>
+<li>
+<p><code>/build lab 1</code> (실습 1을 채점해줘!)</p>
+</li>
+<li>
+<p><code>/build status</code> (현재 빌드봇의 상태를 알려줘!)</p>
+</li>
+</ul>
+<p>저는 빌드봇에게 과제 1을 검사받아볼 거예요.</p>
+<p><img src="/ko/assets/img/20201202/slack-2.png" alt="slack-2" /></p>
+<p>이렇게 명령어를 치고 기다리면</p>
+<p><img src="/ko/assets/img/20201202/slack-3.png" alt="slack-3" /></p>
+<p>단 몇 분만에 채점 결과를 알려줍니다. 참 쉽죠?</p>
+<h2>빌드봇이 하는 일</h2>
+<p>빌드봇은 크게 두 가지 일을 합니다.</p>
+<h3>1. 로직 검사</h3>
+<p>로직 검사는 명세서에 나온 설계대로 기능이 정상 작동하는지 검사할 뿐만 아니라 상속 구조는 올바른지, 메모리를 올바로 사용하는지(예: 메모리 누수, 필요없는 메모리 사용, 잘못된 메모리 접근 등), 시간 복잡도(예: <code>O(n)</code> 등)이 적절한지 모두 체크한답니다. (그 방법은 영업 비밀... 쉿)</p>
+<h4>예시</h4>
+<p>여기에 실습에 1%를 맞은 참담한 코드가 있습니다. (<del>절대 제 코드 아닙니다!</del>)</p>
+<p><img src="/ko/assets/img/20201202/slack-4.png" alt="slack-4" /></p>
+<p>슬랙 메시지에서 간략한 정보를 알 수 있어요. 몇 개의 테스트 중 몇 개를 통과했고, 오류(error)나 경고(warning)는 몇 개인지, 실패한 테스트는 무엇인지 등등을 말이죠.</p>
+<p><code>테스트 - 1 / 56 통과</code>라고 링크가 걸려있는 메시지를 클릭하면 더 상세한 페이지로 넘어갑니다.</p>
+<p><img src="/ko/assets/img/20201202/slack-5.png" alt="slack-5" /></p>
+<p>상세 페이지에서는 틀린 테스트를 전부 확인할 수 있고 간혹 빌드봇이 힌트를 주기도 한답니다. 각 테스트에 대한 더 자세한 힌트는 위키 페이지에서 알 수 있죠 ^-^)</p>
+<p>참고로 아래는 각각 크래시와 시간 초과로 검사 자체를 하지 못 할 때 받는 메시지입니다.</p>
+<p><img src="/ko/assets/img/20201202/slack-6.png" alt="slack-6" /></p>
+<p><img src="/ko/assets/img/20201202/slack-7.png" alt="slack-7" /></p>
+<h3>2. 코딩 스타일 검사</h3>
+<p>협업 시 중요한 덕목 중에 하나가 공통된 규약 하에 알아보기 쉬운 코드를 짜는 것이죠. 간결한 코드보다는 타이핑을 더 하더라도 가독성이 높은 코드가 좋은 경우가 많다고 해요. 가독성 뿐만 아니라 실수를 저지르면 문제가 생기는 부분도 코딩 스탠다드로 막을 수 있답니다. 때문에 공통된 코딩 스탠다드를 지키며 코딩하는 습관을 길러주는 것 또한 빌드봇의 역할!</p>
+<h4>예시</h4>
+<p><img src="/ko/assets/img/20201202/slack-8.png" alt="slack-8" /></p>
+<p>아아~ 테스트는 모두 통과했지만 코딩 스타일에 걸려 100점을 맞지 못한 빌드네요 T^T)</p>
+<p>마찬가지로 <code>코딩 스타일 - 1줄 위반</code> 링크를 클릭하면 더 상세한 메시지를 확인하실 수 있어요!</p>
+<p><img src="/ko/assets/img/20201202/slack-9.png" alt="slack-9" /></p>
+<p><img src="/ko/assets/img/20201202/slack-10.png" alt="slack-10" /></p>
+<h2>쿨타임</h2>
+<p>빌드봇에게 한번 검사를 받은 후에는 다음 검사까지 쿨타임이 있답니다. 이는 통과하는 이유를 이해 못한채 아무거나 바꾸면서 운 좋게 통과하는 일을 막기 위해서입니다.</p>
+<p>빌드봇에 의존하여 코드를 작성하기보다, 빌드봇의 오류 메시지를 토대로 문제의 원인을 고민해 이런저런 가정을 세워보고 그 가정이 맞는지 로컬 환경에서 충분한 테스트를 해야 하죠. 테스트를 많이 할수록 버그가 적어진다는 사실, 잘 아시죠? '-^</p>
+<p><img src="/ko/assets/img/20201202/slack-11.png" alt="slack-11" /></p>
+<h3>과제</h3>
+<p>30분에 한 번 채점할 수 있습니다. 단, 스타일 에러만으로 점수가 깎였으면 다음 채점 요청까지의 쿨다운은 10분입니다.</p>
+<h3>실습</h3>
+<p>실습의 경우에는 5분에 한 번만 채점할 수 있습니다.</p>
+<h2>업적과 도움</h2>
+<p>빌드봇에게 한 번만에 100점을 맞을 경우 '원샷 원킬' 업적<img src="/ko/assets/img/20201202/1shot1kill.png" alt="1shot1kill" />을 얻으실 수 있습니다. 하지만 그게 그리 쉬운 일은 아니지요...후후</p>
+<p><img src="/ko/assets/img/20201202/slack-12.png" alt="slack-12" /></p>
+<p>수많은 시도 끝에 100점을 얻는 일은 흔한 일이죠. 특히 과제는 며칠을 고민하며 이것저것 고치면서 결국 밤을 새워야 하는 일도 있을 수 있습니다. (과제는 미리미리 ^^) 그렇게 수많은 시도를 거치면 어느새 코딩에 대한 자신감이 쑥쑥  ⋌༼ •̀ ⌂ •́ ༽⋋  </p>
+<p>또한 빌드봇이 주는 빌드번호로 조교, 직원분이 도움을 줄 수 있어요. 하지만 남용하면 오히려 본인에게 손해! 스스로 고민해 답을 찾아가는 과정에서 실력이 느는 거랍니다 :)</p>
+<p>아래는 실제 학생과 조교와의 대화입니다. <del>(어째 하나는 아닌거 같은데 말이죠)</del></p>
+<p><img src="/ko/assets/img/20201202/slack-13.png" alt="slack-13" /></p>
+<p><img src="/ko/assets/img/20201202/slack-14.png" alt="slack-14" /></p>
+<p><img src="/ko/assets/img/20201202/slack-15.png" alt="slack-15" /></p>
+<h2>마무리</h2>
+<p>지금까지 빌드봇에 대해 알아봤습니다. 빌드봇은 때로는 아주 든든한 우리의 지원군으로, 때로는 깐깐하고 야속한 상사로 느껴지실 겁니다. 하지만 빌드봇과 함께 코딩을 하다 보면 어느새 몰라보게 발전한 자신의 실력을 발견하게 될 거라구요!</p>
+<p><img src="/ko/assets/img/20201202/Small-BuildBot.png" alt="samll-buildbot" /> 빌드봇 : 겁먹지 말고 나와 함께 즐거운 코딩 하자구!!</p>
+
+                    
+                    
+                    
+                    <section class="pt-5 pb-3 text-center welcome-to-pocu">
+                        <a href="https://pocu.academy/ko/Courses/COMP2200" class="d-inline-block border text-decoration-none text-left rounded to-pocu" id="a002">
+                            <div class="d-flex flex-row align-content-center">
+                                <div class="d-none d-md-block border border-top-0 border-bottom-0 border-left-0">
+                                    <img src="https://blog.pocu.academy/ko/assets/img/logos/COMP2200.png" alt="img" />
+                                </div>
+                                <div class="d-flex flex-column justify-content-center px-4 py-3">
+                                    <h2 class="headlines font-weight-bold">
+                                        컴퓨터처럼 사고하기 | 실무자에게 배우는 C | 고오급 C개발 공부
+                                    </h2>
+                                    <p class="description m-0">수백명에게 5.0 만점 리뷰를 받은 초특급 C 언어 인강! POCU 아카데미에서 C 언어를 마스터하세요!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </section></section>
+                
+                <footer class="pt-4 pt-md-5">
+                    <h2 class="h4">관련 글</h2>
+                    <ul class="list-unstyled">
+                        
+                        <li><a href="/ko/2025/10/20/about-exam-review-duration.html">왜 시험 채점 결과 검토 시간은 30분만 허용할까요</a></li>
+                        
+                        <li><a href="/ko/2023/10/09/how-to-build-and-debug-x86-program-on-apple-silicon-mac.html">가이드: 애플 실리콘 Mac에서 x86 프로그램 빌드 및 디버깅하기</a></li>
+                        
+                        <li><a href="/ko/2023/08/11/how-to-enable-screen-recording-on-mac.html">가이드: Mac에서 '화면 공유에 동의해야 합니다' 메시지가 계속 나올 때 해결법</a></li>
+                        
+                    </ul>
+                </footer>
+                
+                <footer>
+                    <script src="https://giscus.app/client.js"
+    data-repo="POCU/blog.pocu.academy-comments-ko"
+    data-repo-id="R_kgDOONExmA"
+    data-category="Comments"
+    data-category-id="DIC_kwDOONExmM4CoXJr"
+    data-mapping="pathname"
+    data-strict="1"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="ko"
+    crossorigin="anonymous"
+    async>
+</script>
+                </footer>
+            </article>
+        </div>
+    </div>
+</div>
+    </div>
+    
+    <footer class="site-footer position-absolute border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-9 pl-sm-0 pl-lg-3">
+                <div>
+                    <a class="footer-brand" href="https://pocu.academy">
+                        <img src="/ko/assets/img/navbar_logo.png" />
+                    </a>
+                    <span class="ml-1">Copyright © 2018 - 2026. POCU Labs Inc.</span>
+                </div>
+                <div class="mt-1">
+                    <a class="mr-sm-3 mr-3 text-secondary text-nowrap font-weight-bold" href="/ko/faq/">문의하기</a>
+                    <a aria-label="Privacy Policy" class="mr-sm-3 mr-3 text-secondary text-nowrap font-weight-bold" href="https://pocu.academy/ko/Policies/Privacy">개인정보처리방침</a>
+                    <a class="mr-sm-3 mr-3 text-secondary text-nowrap font-weight-bold" href="https://pocu.academy/ko/Policies/Terms">이용 약관</a>
+                    <a class="mr-sm-3 mr-0 text-secondary text-nowrap font-weight-bold" href="https://pocu.academy/ko/About">POCU 소개</a>
+                    <a class="mr-sm-3 mr-0 text-secondary text-nowrap font-weight-bold" href="https://trello.com/b/C5DufaL5" target="_blank">로드맵</a>
+                    <a class="mr-sm-3 mr-0 text-secondary text-nowrap font-weight-bold" href="https://marpple.shop/pocu" target="_blank">굿즈샵</a>
+                </div>
+            </div>
+            <div class="col col-md-2 m-0 p-sm-0 text-md-right">
+                <a class="mr-sm-3 mr-0 text-secondary text-nowrap font-weight-bold" href="/en">English</a>
+                <span class="h5 opacity-75"><a href="/ko/feed.xml" class="badge badge-dark"><i class="fas fa-rss"></i></a></span>
+                <span class="h5 opacity-75"><a href="https://www.youtube.com/channel/UCgbTc3-C54iadfhfghvwGMA" class="badge badge-dark" target="_blank"><i class="fab fa-youtube"></i></a></span>
+                <span class="h5 opacity-75"><a href="https://x.com/POCUKorea" class="badge badge-dark" target="_blank"><i class="fab fa-twitter"></i></a></span>
+                <span class="h5 opacity-75"><a href="https://www.facebook.com/POCUKorea" class="badge badge-dark" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="/ko/assets/lib/jquery/jquery-3.7.1.slim.min.js"></script>
+<script src="/ko/assets/lib/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="/ko/assets/lib/prism/js/prism.min.js"></script>
+<script src="/ko/assets/lib/prism/js/prism-asm6502.min.js"></script>
+<script src="/ko/assets/lib/prism/js/prism-c.min.js"></script>
+<script src="/ko/assets/lib/prism/js/prism-cpp.min.js"></script>
+<script src="/ko/assets/lib/prism/js/prism-csharp.min.js"></script>
+<script src="/ko/assets/lib/prism/js/prism-java.min.js"></script>
+<script src="/ko/assets/js/prism/prism-masm.min.js"></script>
+<script src="/ko/assets/js/saveLangToCookie.js" type="text/javascript"></script>
+
+</body>
+
+</html>

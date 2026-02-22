@@ -1,0 +1,103 @@
+{
+    "pages": [
+    
+        {
+            "title": "POCU 생존일기 38. 디자인 패턴",
+            "link": "/2021/03/16/survival-log-38-comp2500-design-pattern.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-03-16",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 37. 슬랙방 폭파",
+            "link": "/2021/03/12/survival-log-37-comp2200-end.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-03-12",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 36. 재채점 검토",
+            "link": "/2021/03/09/survival-log-36-comp2200-final-exam.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-03-09",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 35. COMP2200 중간고사",
+            "link": "/2021/03/05/survival-log-35-comp2200-mid-exam.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-03-05",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 34. 포목을 만들자",
+            "link": "/2021/03/02/survival-log-34-comp2200-ass1.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-03-02",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 33. COMP2200 실습 11",
+            "link": "/2021/02/26/survival-log-33-comp2200-lab11.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-26",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU는 무슨 뜻인가요?",
+            "link": "/2021/02/25/what-is-the-meaning-of-POCU.html",
+            "excerpt": "안녕하세요, POCU 아카데미 수강생 여러분. 윤아입니다!
+평소에 POCU라고 듣고 ~~&quot;포쿠&quot;~~라고만 생각했던 당신! 그건 조금 착각이었어요! 깜짝 놀라셨죠?
+모든 것의 이름에는 그 뒤에 숨겨진 의미가 있어요. 그래서 이름을 알면 그 것의 본질을 더 잘 이해할 수 있답니다. 그렇기 때문에 오늘은 저와 함께 POCU의 진짜 의미를 탐색하며, 우리 교육기관의 깊은 목표와 방향성에 대해 함께 알아보는 시간을 가져보려고 해요!
+그럼 지금부터 POCU의 진짜 의미, 궁금하지 않으세요? 함께 알아가볼까요?
+",
+            "date": "2021-02-25",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 32. 팩트 폭행",
+            "link": "/2021/02/23/survival-log-32-comp2200-lab10.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-23",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 31. COMP2200 실습 8",
+            "link": "/2021/02/19/survival-log-31-comp2200-lab8-build.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-19",
+            "author": "윤아"
+        }
+    ,
+        {
+            "title": "POCU 생존일기 30. 리치(rich) 텍스트 편집기",
+            "link": "/2021/02/16/survival-log-30-comp2200-lab8.html",
+            "excerpt": "원저자: fergcd 님
+",
+            "date": "2021-02-16",
+            "author": "윤아"
+        }
+    ],
+    
+    "next": "/api/articles/page-11.json",
+    
+    
+    "prev": "/api/articles/page-9.json"
+    
+}
